@@ -1,0 +1,63 @@
+@font-face {
+    font-family:'myFont_two';  /*重命名字体名 */
+    src: url('/font/myFont_two.ttf'); /*引入字体*/
+    font-weight: normal;
+    font-style: normal;
+}
+#mainTitleName{
+    font-size: 50px;
+    font-family: myFont_two;
+}
+#mainTitleLeft{
+    float: left;
+    width: 79%;
+    display: flex;
+    align-items: center;
+}
+#mainTitleRight{
+    width: 19%;
+    font-size: 20px;
+    float: right;
+    margin-right: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+#topic_table{
+    margin: 0 auto;
+    width: 1000px;
+}
+tr{
+    border-bottom:1px #ddd solid;
+}
+#topic_table th{
+    background-color: #9c9b9b;
+}
+#topic_table tr{
+    height: 40px;
+}
+#topic_table td{
+    text-align: center;
+}
+#topic_bottom{
+    text-align: center;
+    height: 50px;
+    margin: auto;
+    line-height: 50px;
+    margin-top: 50px;
+}
+.crud_btn{
+    width: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: khaki;
+    color: black;
+}
+.release_btn{
+    margin-left: 400px;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: mediumturquoise;
+    color: black;
+}

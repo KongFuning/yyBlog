@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发表文章</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/release.css">
+</head>
+<body id="body">
+    <div id="title">
+        <h1>-----&nbsp;发表文章&nbsp;-----</h1>
+    </div>
+    <form method="post" action="/releaseServlet">
+        <table id="releaseTable">
+            <tr>
+                <td><label style="font-size: 20px">文章标题：</label></td>
+                <td> <input type="text" id="topicName" placeholder="请输入文章标题" name="topicName"></td>
+            </tr>
+            <tr>
+                <td><label style="font-size: 20px">文章内容：</label></td>
+                <td><textarea id="topicContent" name="topicContent" placeholder="请输入文章内容"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input id="releaseBtn" type="submit" value="发 表" class="btn">
+                    <a href="/mainServlet"><input id="return" type="button" value="返 回" class="btn"></a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

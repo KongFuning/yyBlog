@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Y Y 博 客</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body id="body">
+    <div id="title">
+        <h1>-----&nbsp;欢迎来到YY博客&nbsp;-----</h1>
+    </div>
+    <div id="out">
+        <form id="form" method="post" action="/loginServlet">
+            <table id="table">
+                <tr>
+                    <th>用户名:</th>
+                    <td>
+                        <input id="username" type="text" placeholder="请输入用户名" class="input" name="loginUsername">
+                    </td>
+                    <td>
+                        <span id="checkusername"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>密&nbsp;&nbsp;&nbsp;码:</th>
+                    <td>
+                        <input id="password" type="password" placeholder="请输入密码" class="input" name="loginPassword">
+                    </td>
+                    <td>
+                        <span id="checkpassword"></span>
+                    </td>
+                </tr>
+            </table>
+            <div id="bt">
+                <input id="loginBt" type="submit" value="登 录" class="btn"><br/>
+                <a href="register.html"><input id="registerBt" type="button" value="注 册"class="btn"></a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

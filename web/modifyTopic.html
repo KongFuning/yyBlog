@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改文章</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/release.css">
+</head>
+<body id="body">
+    <div id="title">
+        <h1>-----&nbsp;修改&nbsp;-----</h1>
+    </div>
+    <form action="/confirmModifyServlet" method="post">
+        <table id="releaseTable">
+            <tr>
+                <td><label style="font-size: 20px">标题：</label></td>
+                <td> <input type="text" id="topicName" name="topicName"></td>
+            </tr>
+            <tr>
+                <td><label style="font-size: 20px">内容：</label></td>
+                <td><textarea id="topicContent" name="topicContent"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input id="modify" type="submit" value="修 改" class="btn">
+                    <a href="/mainServlet"><input id="return" type="button" value="返 回" class="btn"></a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

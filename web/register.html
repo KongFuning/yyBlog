@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用 户 注 册</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body id="body">
+    <div id="title">
+        <h1>-----&nbsp;用户注册&nbsp;-----</h1>
+    </div>
+    <div id="out">
+        <form id="form" method="post" action="/registerServlet">
+            <table id="table">
+                <tr>
+                    <th>用户名:</th>
+                    <td>
+                        <input id="username" type="text" placeholder="请输入用户名" class="input" name="username">
+                    </td>
+                    <td>
+                        <span id="checkusername"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>密&nbsp;&nbsp;&nbsp;码:</th>
+                    <td>
+                        <input id="password" type="password" placeholder="请输入密码" class="input" name="password">
+                    </td>
+                    <td>
+                        <span id="checkpassword"></span>
+                    </td>
+                </tr>
+            </table>
+            <div id="bt">
+                <input id="registerBt" type="submit" value="注 册" class="btn">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+<script src="js/registerJS.js" type="text/javascript"></script>
+</html>
